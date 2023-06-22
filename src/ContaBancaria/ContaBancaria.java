@@ -1,10 +1,10 @@
 package ContaBancaria;
 
-public abstract class ContaBancaria {
+public class ContaBancaria {
 
     private String nomeCliente;
 
-    private int numConta;
+    private String numConta;
     private double saldo;
 
     void conferirSaldo(){
@@ -32,11 +32,11 @@ public abstract class ContaBancaria {
         this.nomeCliente = nomeCliente;
     }
 
-    public int getNumConta() {
+    public String getNumConta() {
         return numConta;
     }
 
-    public void setNumConta(int numConta) {
+    public void setNumConta(String numConta) {
         this.numConta = numConta;
     }
 
